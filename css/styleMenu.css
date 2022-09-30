@@ -1,0 +1,89 @@
+.dws-menu *{
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+.dws-menu ul,
+.dws-menu ol{
+  list-style: none;
+}
+.dws-menu > ul{
+  display: flex;
+  justify-content: center;
+}
+.dws-menu > ul li a{
+  display: block;
+  padding: 15px 30px 15px 40px;
+  font-size: 14px;
+  color: #454547;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.dws-menu > ul li{
+  position: relative;
+  border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu > ul li:first-child{
+  border-left: 1px solid #babbbb;
+}
+.dws-menu > ul li:last-child{
+  border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover{
+  background: #454547;
+  color: #ffffff;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.3s ease;
+}
+
+/*sub-menu*/
+.dws-menu li ul{
+  position: absolute;
+  display: none;
+  min-width: 150px;
+}
+.dws-menu li > ul li{
+  border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+  padding: 10px;
+/*  text-transform: none;*/
+  background: #e4e4e5;
+}
+.dws-menu li > ul li ul{
+  position: absolute;
+  right: -194px;
+  top: 0;
+}
+.dws-menu li:hover > ul{
+  display: block;
+}
+
+.raz {
+  margin: 0;
+  border-top: solid 2px;
+  padding: 0;
+  overflow: auto; /* очистить float */
+}
+.raz li {
+  clear: both;
+}
+.raz span {
+  float: right;
+  white-space: nowrap; /* текст не будет переноситься на другую строку */
+}
+.raz1 {
+  margin: 0;
+/*  border-top: solid 2px;*/
+  padding: 0;
+  overflow: auto; /* очистить float */
+}
+.raz1 li {
+  clear: both;
+}
+.raz1 span {
+  float: right;
+  white-space: nowrap; /* текст не будет переноситься на другую строку */
+}

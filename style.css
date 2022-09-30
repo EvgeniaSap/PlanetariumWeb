@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine; /* Цвет фона веб-страницы*/
+}
+h1{
+    background-color: blue; /* Цвет фона под заголовком*/
+    color: aqua; /* Цвет заголовка*/
+}
+p {
+    background-color: blueviolet; /* Цвет фона под текстом параграфа*/
+    color: aliceblue; /* Цвет текста*/
+}
+
+.header {
+    font-size: 36px;
+    text-align: center;
+}
