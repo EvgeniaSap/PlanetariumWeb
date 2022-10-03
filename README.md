@@ -16,4 +16,5 @@
 3. Import from the `planetarium.sql` file containing the database.
 4. Move all files to ...\wamp\www.
 5. Open browser and navigate to `localhost` or `/127.0.0.1`.
-
+## Using the PlanetariumWeb
+See the Use Case Diagram for details on the available features.
