@@ -14,7 +14,7 @@
 1. Install the WampServer 3 web server build.
 2. Run phpMyAdmin.
 3. Import from the `planetarium.sql` file containing the database.
-4. Move all files to ...\wamp\www.
+4. Move all files to `...\wamp\www`.
 5. Open browser and navigate to `localhost` or `/127.0.0.1`.
 ## Using the PlanetariumWeb
 See the ![Use Case Diagram](https://github.com/EvgeniaSap/PlanetariumWeb/issues/1#issue-1395193106) for details on the available features.
